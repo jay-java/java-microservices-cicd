@@ -4,8 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.dto.ProductResponseDTO;
+import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.feignclients.ProductFeignClient;
 
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
@@ -14,9 +16,14 @@ public class ProductFeignIntegrationService {
 
 	@Autowired
 	private ProductFeignClient productFeignClient;
-
+	
+	@CircuitBreaker(name="productServiceCB",fallbackMethod = "fetchProductFallBack")
 	public ProductResponseDTO fetchProduct(Long productId) {
 		return productFeignClient.getProductById(productId);
+	}
+
+	public ProductResponseDTO fetchProductFallBack(Long productId,Throwable t) {
+		throw new ResourceNotFoundException("Product service is unavailable, Please try again later");
 	}
 
 	
