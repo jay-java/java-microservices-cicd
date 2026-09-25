@@ -1,0 +1,19 @@
+2026-09-25 03:43:13.107: [INFO] CurrentProfilePath: C:\Users\topst\MyWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-25 03:43:13.107: [INFO] Profiles total count: 1
+2026-09-25 03:43:13.107: [INFO] Profile: name=Profile 1 path=C:\Users\topst\MyWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-25 03:43:13.107: [INFO] LastUsedProfileDir: C:\Users\topst\MyWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-25 03:43:13.107: [INFO] OnDoneLoading sync enabled: 0
+2026-09-25 03:43:13.107: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 03:43:13.107: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 03:43:13.107: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 03:43:25.622: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 03:43:26.121: [INFO] CurrentProfilePath: C:\Users\topst\MyWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-25 03:43:26.121: [INFO] Profiles total count: 1
+2026-09-25 03:43:26.121: [INFO] Profile: name=Profile 1 path=C:\Users\topst\MyWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-25T03:43:13.831Z
+2026-09-25 03:43:26.121: [INFO] LastUsedProfileDir: C:\Users\topst\MyWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-25 03:43:26.121: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\topst\MyWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-25T03:43:13.831Z
+2026-09-25 03:43:26.121: [INFO] OnDoneLoading sync enabled: 0
+2026-09-25 03:43:26.121: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 03:43:26.121: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 03:43:26.121: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 03:43:52.433: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
